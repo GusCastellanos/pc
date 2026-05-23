@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dell PC Troubleshooting</title>
+  <style>
+   body {
+     padding-left: 20px; /* Adjust the value as needed */ 
+    }
+   .styled-table {
+    width:80%;
+    border-collapse: collapse;
+    margin: 25px 0px;
+    padding: 25px;
+    font-size: 1em;
+    font-family: sans-serif; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+   th, td {
+      padding-left: 20px;   
+      padding-right: 20px;   
+      padding-top: 20px;  
+      vertical-align: top;
+    }
+  </style>
+</head>
+
+
+<body>  
+ 
+<h1>Dell PC Troubleshooting</h1>
+
+<p>
+  These are steps you can take to help troublehoot reboot issues on a PC.
+</p>
+
+<table class="styled-table">
+  <tr>
+   <th>#</th>
+   <th>Action Item</th> 
+   <th>What it Does</th>
+   <th>Instructions and Resources</th>
+
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Clean PC vents and fans</td>
+    <td>PCs will stop and restart if they get too hot. Cleaning your PC case and vents prevents the machine from overheating. </td>
+    <td>
+      Shut down and unplug the pc. Wipe all sides of the case and any vents with a microfiber or other lint free cloth. Look inside the case to check for significant dust build up. If you see a lot of dust build up (like lint in a lint trap) you will need to open up the PC and <b>carefully</b> remove the build-up without damaging sensitive electronic parts. After cleaning, check the location of the computer to be sure it has at least 3-4 inches of space on all sides to allow for proper air flow then plug in the machine and turn it on.
+    </td>
+  </tr>
+
+  <tr>
+    <td>2</td>
+    <td>Disable Automatic Restarts</td>
+    <td>By default when your PC hits a fatal error it will restart in the background and ask you to login again, so you don't see what error caused the restart. By disabling automatic restarts you force the PC to show you the error it encountered. Changing this setting on the pc means that when it hits any fatal error you will see a message and then have to manually restart to continue working.</td>
+    <td>
+      PDF file: <a href="Disable Automatic Restarts on a Dell PC.pdf" target="_blank">Disable Automatic Restarts on a Dell PC.pdf</a>
+    </td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Run Dell Preboot Diagnostics and Hardware Tests</td>
+    <td>Dell PCs have a built-in diagnostic screen that can check internal components for problems, such as Motherboards, Video Cards, and Memory. The diagnostic tests can tell you if all of those components are working properly or not. If a component fails the diagnostic test, it means it needs to be replaced. If all of the hardware components pass the diagnostic tests, the problem is likely caused by a piece of software. </td>
+    <td>
+      <a href="https://www.dell.com/support/kbdoc/en-us/000181163/how-to-enter-the-built-in-diagnostics-32-bit-diagnostics-supportassist-epsa-epsa-and-psa "target="_blank">
+	Dell article on running diagnostics</a>
+     
+    </td>
+  </tr>
+
+  <tr>
+    <td>4</td>
+    <td>Disable Startup Apps and Background Programs
+    </td>
+    <td>Startup Apps and Background programs normally run quietly in the background to speed up large program load times by pre-loading some components but if they hit a fatal error they can cause unexpected system reboots.
+    </td>
+
+    <td><b>To Disable Startup Apps:</b> Press <b>Ctrl + Shift + Esc</b> to open the Task Manager. Go to the <b>Startup</b> tab (or the <b>Startup Apps icon on the left</b> in Windows 11), right-click unnecessary programs and select Disable. Restart your PC for the new settings to take effect. Almost all startup apps can be disabled safely. If you notice a problem after disabling a startup app you can return to this same screen and select "Enable" to re-enable the app and restart again. 
+       <p><b>To Disable Background Permissions:</b> Go to <b>Start > Settings > Privacy > Background apps</b> (or Privacy & Security in Windows 11), and toggle <b>Let apps run in the background</b> to <b>Off</b>. Restart your PC for the new settings to take effect. </p>
+
+    </td>
+
+  
+  </tr>
+
+
+</table>
+
+
+
+</body>
